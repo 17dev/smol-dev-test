@@ -1,0 +1,28 @@
+.chatMessage {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.chatMessage .messageContent {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.chatMessage .messageTimestamp {
+    font-size: 0.8em;
+    color: #888;
+    margin-left: 10px;
+}
+
+.chatMessage.bot {
+    justify-content: flex-end;
+}
+
+.chatMessage.bot .messageContent {
+    background-color: #d0f0d0;
+}
